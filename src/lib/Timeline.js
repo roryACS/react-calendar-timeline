@@ -424,8 +424,8 @@ export default class ReactCalendarTimeline extends Component {
         oldZoom
     )
 
+    this.scrollComponent.scrollLeft = scrollLeft
     if (componentScrollLeft !== scrollLeft) {
-      this.scrollComponent.scrollLeft = scrollLeft
       this.scrollHeaderRef.scrollLeft = scrollLeft
     }
   }
