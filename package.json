@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar-timeline",
+  "name": "@aerocloud/aerocloud-calendar-timeline",
   "version": "0.28.0",
-  "description": "react calendar timeline",
+  "description": "aerocloud calendar timeline",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm run build:lib",
@@ -18,44 +18,20 @@
     "lib",
     "src"
   ],
-  "homepage": "https://github.com/namespace-ee/react-calendar-timeline",
   "repository": {
     "type": "git",
-    "url": "https://github.com/namespace-ee/react-calendar-timeline.git"
+    "url": "git+https://github.com/roryACS/react-calendar-timeline.git"
   },
   "author": "Marius Andra <marius.andra@gmail.com>",
   "contributors": [
-    {
-      "name": "Stanisław Chmiela",
-      "email": "sjchmiela@gmail.com"
-    },
-    {
-      "name": "Mike Joyce",
-      "url": "https://github.com/mcMickJuice"
-    },
-    {
-      "name": "Samuel Rossetti"
-    },
-    {
-      "name": "amakhrov",
-      "url": "https://github.com/amakhrov"
-    },
-    {
-      "name": "Ahmad Ilaiwi",
-      "url": "https://github.com/Ilaiwi"
-    },
-    {
-      "name": "dkarnutsch",
-      "url": "https://github.com/dkarnutsch"
-    },
-    {
-      "name": "Alex Maclean",
-      "url": "https://github.com/acemac"
-    },
-    {
-      "name": "Kevin Mann",
-      "url": "https://github.com/kevinmanncito"
-    }
+    "Stanisław Chmiela <sjchmiela@gmail.com>",
+    "Mike Joyce (https://github.com/mcMickJuice)",
+    "Samuel Rossetti",
+    "amakhrov (https://github.com/amakhrov)",
+    "Ahmad Ilaiwi (https://github.com/Ilaiwi)",
+    "dkarnutsch (https://github.com/dkarnutsch)",
+    "Alex Maclean (https://github.com/acemac)",
+    "Kevin Mann (https://github.com/kevinmanncito)"
   ],
   "license": "MIT",
   "keywords": [
@@ -151,5 +127,14 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/roryACS/react-calendar-timeline/issues"
+  },
+  "homepage": "https://github.com/roryACS/react-calendar-timeline#readme",
+  "directories": {
+    "doc": "doc",
+    "example": "examples",
+    "lib": "lib"
   }
 }
